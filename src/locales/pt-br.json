@@ -1,0 +1,27 @@
+{
+  "home": {
+    "initialText": "Uma prioridade",
+    "title": "Salve vidas doando",
+    "subTitle": "sangue e leite materno",
+    "info": "As doações são fundamentais para o suprimento de componentes sanguíneos vitais, e para a nutrição de recém-nascidos prematuros e bebês com dificuldades de amamentação.",
+    "dataSecurity": "Seus dados estão seguros e não serão enviados a ninguém",
+    "benefits": {
+      "first": {
+        "title": "Segurança",
+        "text": "Seus dados estão seguros e não serão enviados a ninguém."
+      },
+      "second": {
+        "title": "Praticidade",
+        "text": "Você pode doar sangue ou leite materno em qualquer lugar."
+      },
+      "third": {
+        "title": "Gratidão",
+        "text": "Você ajudará a salvar dezenas de vidas."
+      }
+    }
+  },
+  "buttons": {
+    "signup": "Cadastre-se",
+    "signin": "Entrar"
+  }
+}
