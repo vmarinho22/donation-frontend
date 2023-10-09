@@ -17,6 +17,21 @@ module.exports = {
     },
     extend: {
       colors: {
+        bloodRed: {
+          500: "#c90a00"
+        },
+        simpleCyan: {
+          200: "#88d1ca"
+        },
+        modestOrange: {
+          300: "#e68a2e"
+        },
+        defaultGray: {
+          200: "#ded6c9"
+        },
+        terracotta: { 
+          300: "#452b34"
+        },
         border: "hsl(var(--border))",
         input: "hsl(var(--input))",
         ring: "hsl(var(--ring))",
