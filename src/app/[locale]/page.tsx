@@ -2,23 +2,15 @@ import { Button } from '@/components/ui/button';
 import Link from 'next/link';
 import { HiLockClosed, HiHeart, HiFaceSmile } from 'react-icons/hi2';
 import { useTranslations } from 'next-intl';
+import Headers from '@/components/Headers';
 
 export default function Home() {
   const t = useTranslations('home');
   const buttonsT = useTranslations('buttons');
 
   return (
-    <main className='h-screen w-screen'>
-      <header className='h-22 mb-8 flex w-full flex-nowrap items-center justify-between px-8 py-3'>
-        <h1 className='text-2xl font-bold'>Donation System</h1>
-        <Button
-          variant='outline'
-          asChild
-          className='border-bloodRed-500 hover:bg-bloodRed-500 hover:text-white'
-        >
-          <Link href='/login'>{buttonsT('signin')}</Link>
-        </Button>
-      </header>
+    <main className='min-h-screen w-screen'>
+      <Headers.LoggedOutHeader />
       <section
         id='lp-content'
         className='flex w-full flex-col items-center lg:justify-center gap-3 mb-8 lg:mb-0 lg:h-[60vh]'

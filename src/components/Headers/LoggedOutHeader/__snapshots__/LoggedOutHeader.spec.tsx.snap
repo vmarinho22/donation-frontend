@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`LoggedOutHeader should render the component 1`] = `
+<h1
+  class="text-2xl font-bold"
+>
+  Donation System
+</h1>
+`;
